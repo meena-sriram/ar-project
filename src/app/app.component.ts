@@ -1,19 +1,10 @@
-import {Component} from '@angular/core';
-import {Observable, Subject} from 'rxjs';
-import {WebcamImage} from 'ngx-webcam';
-
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.scss']
+  styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-
-  // latest snapshot
-  public webcamImage: WebcamImage = null;
-
-  handleImage(webcamImage: WebcamImage) {
-    this.webcamImage = webcamImage;
-  }
+  title = 'ar-project';
 }
