@@ -29,7 +29,7 @@ export class PlayArComponent implements OnInit {
         var sceneEl = document.querySelector('a-scene');
         var newObj = sceneEl.querySelector('#hmnft');
     
-        if (this.image === "bio") {
+        if (this.image === "pinball") {
           newObj.setAttribute('url', 'https://arjs-cors-proxy.herokuapp.com/https://raw.githack.com/AR-js-org/AR.js/master/data/dataNFT/pinball');
           this.url = "https://arjs-cors-proxy.herokuapp.com/https://raw.githack.com/AR-js-org/AR.js/master/data/dataNFT/pinball";
         } else  {
